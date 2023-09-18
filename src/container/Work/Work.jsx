@@ -41,7 +41,7 @@ const Work = () => {
 			</h2>
 
 			<div className="app__work-filter">
-				{["Nuxt JS", "React JS", "All"].map(
+				{["Typescript","Nuxt JS", "React JS", "All"].map(
 					(item, index) => (
 						<div
 							key={index}
