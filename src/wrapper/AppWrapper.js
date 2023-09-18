@@ -12,7 +12,7 @@ const AppWrapper = (Component, idName, className) =>
 					<Component />
 
 					<div className="copyright">
-						<p className="p-text">@2020 Miracle</p>
+						<p className="p-text">@2023 Miracle</p>
 						<p className="p-text">All right reserved</p>
 					</div>
 				</div>
