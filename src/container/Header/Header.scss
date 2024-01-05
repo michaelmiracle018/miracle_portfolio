@@ -170,14 +170,21 @@
   height: 100%;
 
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
   position: relative;
 
   img {
-    width: 100%;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
     object-fit: contain;
     z-index: 1;
+
+    @media screen and (max-width: 420px) {
+      width: 300px;
+      height: 300px;
+    }
   }
 
   .overlay_circle {
